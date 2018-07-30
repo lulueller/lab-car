@@ -1,1 +1,85 @@
-/* Los estilos de tu proyecto */
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.labcar-nav {
+  margin: 0;
+  padding: 4vh;
+}
+
+#labcar-logo {
+  width: 75%;
+  height: auto;
+}
+
+.lab-menu {
+  margin-right: 1rem;
+  margin-left: 1rem
+}
+
+.lab-menu:hover {
+  background-color: #F7B617;
+}
+
+.cab-img {
+	background-image: url(../assets/images/taxi.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-size: 100%;
+	background-position: 100% 95%;
+	padding-top: 10%;
+	padding-bottom: 15%;
+}
+
+.banner-call {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  color: white;
+  font-weight: 600;
+  line-height: 2rem;
+	background-color: #F7B617;
+}
+
+.banner-container {
+  padding-left: 2vh;
+  padding-top: 1vw;
+}
+
+.banner-call-text {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.banner-call-text-sm {
+  padding: 0;
+  margin: 0;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.white-logo {
+  width: 15%;
+  height: auto;
+}
+
+.banner-call-divider {
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.banner-container {
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+
+.banner-call-btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}

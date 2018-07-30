@@ -4,39 +4,57 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Labcar</title>
   </head>
   <body>
-    <!--
-    <img src="full-site.png" alt="">
-    -->
     <div class="container">
-      <nav class="navbar navbar-expand-sm navbar-light bg-white">
-        <a class="navbar-brand" href="#">
-          <img src="assets/images/logoForma.png" alt="Labcar logo">
+      <nav class="navbar navbar-expand-sm navbar-light bg-white labcar-nav">
+        <a class="navbar-brand ml-3" href="#">
+          <img id="labcar-logo"src="assets/images/logoForma.png" alt="Labcar logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarsExample03">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto mr-4">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Viaje<span class="sr-only">(current)</span></a>
+              <a class="nav-link lab-menu" href="#">Viaja<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Dirija</a>
+              <a class="nav-link lab-menu" href="#">Conduce</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Iniciar sessão</a>
+              <a class="nav-link lab-menu" href="#">Inicia sesión</a>
             </li>
           </ul>
         </div>
       </nav>
-      <div class="">
-        <img src="assets/images/taxi.jpg" class="img-fluid" alt="Responsive image">
+
+      <section>
+        <div class="row cab-img">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pr-0">
+            <div class="col-md-5 col-lg-5 pr-0 ml-auto">
+              <div class="jumbotron banner-call">
+                <div class="banner-container">
+
+
+                <p class="banner-call-text">Disfruta del viaje</p>
+                <p class="banner-call-text">Eres dueño de tu tiempo</p>
+                <p class="banner-call-text-sm">Viaje com <img class="white-logo"src="assets/images/logoBlanco.png" alt="Lab car logo"></p>
+                <button href="#" class="btn btn-default banner-call-btn" data-toggle="modal" data-target="">REGISTRE-SE</button>
+
+                <p class="banner-call-divider">ou</p>
+                <button href="#" class="btn btn-default banner-call-btn">Torne-se uma motorista</button>
+              </div>
+            </div>
+            </div>
+          </div>
       </div>
+    </section>
 
 
-    </div>
+    </div> <!-- cfim do container -->
   </body>
 </html>
