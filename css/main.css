@@ -11,6 +11,7 @@ html {
 #labcar-logo {
   width: 75%;
   height: auto;
+  margin: 1rem;
 }
 
 .lab-menu {
@@ -22,6 +23,9 @@ html {
   background-color: #F7B617;
 }
 
+.lab-nav-icon {
+  justify-content: flex-start;
+}
 .cab-img {
 	background-image: url(../assets/images/taxi.jpg);
   background-position: center bottom;
@@ -31,6 +35,10 @@ html {
 	background-position: 100% 95%;
 	padding-top: 10%;
 	padding-bottom: 15%;
+}
+
+.labcar-bg-color {
+  background-color: #F7B617;
 }
 
 .banner-call {
@@ -59,6 +67,7 @@ html {
   margin: 0;
   margin-top: 1.5rem;
   font-size: 1.3rem;
+  color: white;
 }
 
 .white-logo {
@@ -82,4 +91,67 @@ html {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: 600;
+}
+
+.cell-text {
+  margin-top: 0;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.lab-border {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lab-border-mobile {
+  margin: 2rem;
+  border: 1px solid white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cellphone-mobile {
+  width: 50%;
+  height: auto;
+}
+
+.driver-img {
+  background-image: url(../assets/images/conduce.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 80%;
+  height: 70vh;
+}
+
+.banner-driver {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  height: 100%;
+}
+
+.driver-call-btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.labcar-form {
+  border-radius: 6px;
+}
+
+.map {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.map-size {
+  width: 100%;
+  height: 100%;
 }
